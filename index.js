@@ -1,15 +1,18 @@
-const express = require('express');
+var app = require('express')();
+var http = require('http').Server(app);
+var io = require('socket.io')(http);
+var port = process.env.PORT || 8000;
 
-const app = express();
-const port = process.env.PORT || 8000;
-
-app.set('view engine', 'pug');
-app.set('views', './views');
-
-app.get('/', (req, res) => {
-    res.render('index');
+app.get('/', function(req, res){
+  res.sendFile(__dirname + '/index.html');
 });
 
-app.listen(port, () => {
-    console.log(`Running on port ${port}`);
+io.on('connection', function(socket){
+  socket.on('chat message', function(msg){
+    io.emit('chat message', msg);
+  });
+});
+
+http.listen(port, function(){
+  console.log('listening on *:' + port);
 });
