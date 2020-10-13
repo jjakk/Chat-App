@@ -3,6 +3,9 @@ var http = require('http').Server(app);
 var io = require('socket.io')(http);
 var port = process.env.PORT || 8000;
 
+app.set('views', './views');
+app.set('view engine', 'pug');
+
 app.get('/', function(req, res){
   res.sendFile(__dirname + '/index.html');
 });
