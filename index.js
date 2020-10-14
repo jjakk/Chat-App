@@ -7,11 +7,11 @@ app.set('views', './views');
 app.set('view engine', 'pug');
 
 app.get('/', function(req, res){
-  res.sendFile(__dirname + '/index.html');
+  res.sendFile('index');
 });
 
 app.get('/:id', function(req, res){
-  res.sendFile(__dirname + '/index.html');
+  res.sendFile('index');
 });
 
 /* Socket Stuff */
