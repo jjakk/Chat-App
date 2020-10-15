@@ -6,12 +6,14 @@ var port = process.env.PORT || 8000;
 app.set('views', './views');
 app.set('view engine', 'pug');
 
+/* Routing */
+
 app.get('/', function(req, res){
-  res.sendFile('index');
+  res.render('index');
 });
 
 app.get('/:id', function(req, res){
-  res.sendFile('index');
+  res.render('messaging');
 });
 
 /* Socket Stuff */
