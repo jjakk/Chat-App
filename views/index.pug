@@ -2,6 +2,14 @@ doctype html
 head
   title Chat App
   link(rel='stylesheet' href='./css/index.css')
+  link(rel='stylesheet' href='./css/home.css')
+body
+    header
+        h1 Chat App
+    main
+        form(method='POST' action='/goto')
+            | chat.jak.bz/
+            input(type='text' name='location')
 script(src='https://cdn.socket.io/socket.io-1.2.0.js')
 script(src='https://code.jquery.com/jquery-1.11.1.js')
 script(src='./js/index.js')
