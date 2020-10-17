@@ -29,7 +29,6 @@ app.get('/:id', function(req, res){
 
 io.on('connection', function(socket){
   socket.on('chat message', function(location, msg){
-    console.log(location);
     io.emit('chat message', msg);
   });
 });
