@@ -1,1 +1,1 @@
-![Cash App](./public/img/icon.png)
+![Cash App](./public/img/banner.png)
