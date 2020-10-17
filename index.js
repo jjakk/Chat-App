@@ -11,7 +11,7 @@ app.set('view engine', 'pug');
 app.use(express.static('public'));
 app.use(bodyParser.urlencoded({extended: true}));
 
-/* Routing */
+// Routing
 
 app.get('/', function(req, res){
   res.render('index');
@@ -25,7 +25,7 @@ app.get('/:id', function(req, res){
   res.render('messaging');
 });
 
-/* Socket Stuff */
+// Messaging Sockets
 
 io.on('connection', function(socket){
   socket.on('chat message', function(username, location, msg){
@@ -33,6 +33,10 @@ io.on('connection', function(socket){
   });
 });
 
-http.listen(port, function(){
+// Port listen
+
+http.listen(port, () => {
   console.log(`Listening on port ${port}`);
 });
+
+

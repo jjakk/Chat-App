@@ -3,8 +3,11 @@ $(function () {
     let username;
 
     do{
-      username = prompt('Enter username');
+      username = prompt('Enter your name');
     }while(username === '')
+    if(username === null){
+      username = 'guest';
+    }
 
     $('form').submit(function(){
       if($('#m').val() !== ''){

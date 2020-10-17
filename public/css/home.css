@@ -43,6 +43,10 @@
     opacity: 0.75;
 }
 
+.root-url{
+    display: inline;
+}
+
 /* Tags */
 
 body{
