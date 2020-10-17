@@ -7,37 +7,37 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   sodipodi:docname="icon.svg"
-   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
-   id="svg8"
-   version="1.1"
-   viewBox="0 0 132.29166 132.29167"
+   width="500"
    height="500"
-   width="500">
+   viewBox="0 0 132.29166 132.29167"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="icon.svg">
   <defs
      id="defs2" />
   <sodipodi:namedview
-     inkscape:window-maximized="1"
-     inkscape:window-y="-11"
-     inkscape:window-x="-11"
-     inkscape:window-height="1410"
-     inkscape:window-width="2256"
-     inkscape:showpageshadow="false"
-     inkscape:pagecheckerboard="true"
-     units="px"
-     showgrid="false"
-     inkscape:document-rotation="0"
-     inkscape:current-layer="layer1"
-     inkscape:document-units="px"
-     inkscape:cy="286.88209"
-     inkscape:cx="316.2419"
-     inkscape:zoom="1.323699"
-     inkscape:pageshadow="2"
-     inkscape:pageopacity="0.0"
-     borderopacity="1.0"
-     bordercolor="#666666"
+     id="base"
      pagecolor="#ffffff"
-     id="base" />
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.3373983"
+     inkscape:cx="316.2419"
+     inkscape:cy="286.88209"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     units="px"
+     inkscape:pagecheckerboard="true"
+     inkscape:showpageshadow="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -46,37 +46,38 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
-     id="layer1"
+     inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     inkscape:label="Layer 1">
+     id="layer1">
     <rect
-       ry="40.350773"
-       y="0"
-       x="0"
-       height="132.29167"
-       width="132.29167"
+       style="fill:#2a7fff;stroke:none;stroke-width:2.21091"
        id="rect833"
-       style="fill:#2a7fff;stroke:none;stroke-width:2.21091" />
+       width="132.29167"
+       height="132.29167"
+       x="0"
+       y="0"
+       ry="40.350773" />
     <g
-       transform="translate(2.228266,2.6458342)"
-       id="g881">
+       style="fill:#f9f9f9"
+       id="g881"
+       transform="translate(2.228266,2.6458342)">
       <ellipse
-         style="fill:#e6e6e6;fill-opacity:1;stroke:none;stroke-width:1.03357"
-         id="path875"
-         cx="66.145836"
-         cy="59.53125"
+         ry="33.072918"
          rx="39.6875"
-         ry="33.072918" />
+         cy="59.53125"
+         cx="66.145836"
+         id="path875"
+         style="fill:#f9f9f9;fill-opacity:1;stroke:none;stroke-width:1.03357" />
       <path
-         style="fill:#e6e6e6;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         d="M 38.808556,72.649084 C 40.301849,81.213957 31.561453,87.033205 24.230067,93.230481 38.079322,91.128079 48.811809,88.17565 50.385593,82.725393"
+         sodipodi:nodetypes="ccc"
          id="path877"
-         sodipodi:nodetypes="ccc" />
+         d="M 38.808556,72.649084 C 40.301849,81.213957 31.561453,87.033205 24.230067,93.230481 38.079322,91.128079 48.811809,88.17565 50.385593,82.725393"
+         style="fill:#f9f9f9;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
     </g>
   </g>
 </svg>

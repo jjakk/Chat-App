@@ -1,7 +1,7 @@
 $(function () {
     var socket = io();
     $('form').submit(function(){
-      socket.emit('chat message', $('#m').val());
+      socket.emit('chat message', window.location.pathname, $('#m').val());
       $('#m').val('');
       return false;
     });
