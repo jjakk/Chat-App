@@ -7,11 +7,12 @@
 }
 
 #messages li{
-    padding: 5px 10px;
-}
-
-#messages li:nth-child(odd){
+    font-size: 22px;
+    padding: 10px 15px;
     background: #eee;
+    margin: 10px;
+    border-radius: 5px;
+    display: inline-block;
 }
 
 #messages{

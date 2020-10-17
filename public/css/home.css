@@ -38,6 +38,11 @@
     width: 200px;
 }
 
+.goto-form input::placeholder{
+    color: white;
+    opacity: 0.75;
+}
+
 /* Tags */
 
 body{

@@ -28,8 +28,8 @@ app.get('/:id', function(req, res){
 /* Socket Stuff */
 
 io.on('connection', function(socket){
-  socket.on('chat message', function(location, msg){
-    io.emit('chat message', msg);
+  socket.on('chat message', function(username, location, msg){
+    io.emit('chat message', username, msg);
   });
 });
 
