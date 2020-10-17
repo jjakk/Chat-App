@@ -6,11 +6,12 @@ head
   link(href="https://fonts.googleapis.com/css2?family=Commissioner:wght@300;400;500&display=swap" rel="stylesheet")
 body
     header
-        h1 Chat App
     main
-        form(method='POST' action='/goto')
-            | chat.jak.bz/
-            input(type='text' name='location')
+        form(method='POST' action='/goto').goto-form
+            h1 Chat App
+            span
+                | chat.jak.bz/
+                input(type='text' name='location')
 script(src='https://cdn.socket.io/socket.io-1.2.0.js')
 script(src='https://code.jquery.com/jquery-1.11.1.js')
 script(src='./js/index.js')

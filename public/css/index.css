@@ -1,5 +1,16 @@
+/* Ids */
+
+/* Classes */
+
+/* Tags */
+
+/* Other */
 
 *{
     font-family: 'Commissioner', sans-serif;
+}
+
+*:not(strong){
+    font-weight: normal;
 }
 

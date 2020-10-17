@@ -1,0 +1,28 @@
+/* Ids */
+
+/* Classes */
+
+/* Tags */
+
+.goto-form{
+    font-size: 26px;
+    text-align: center;
+    margin-top: 15%;
+}
+
+.goto-form h1{
+    margin: 0px 0px 25px 0px;
+}
+
+.goto-form span{
+    border: 1px solid black;
+    margin: 0px;
+}
+
+.goto-form input{
+    vertical-align: middle;
+}
+
+/* Other */
+
+
