@@ -2,8 +2,6 @@
 
 /* Classes */
 
-/* Tags */
-
 .goto-form{
     font-size: 26px;
     text-align: center;
@@ -15,13 +13,16 @@
 }
 
 .goto-form span{
-    border: 1px solid black;
     margin: 0px;
 }
 
 .goto-form input{
     vertical-align: middle;
+    padding: 5px;
+    margin-left: 5px;
 }
+
+/* Tags */
 
 /* Other */
 
