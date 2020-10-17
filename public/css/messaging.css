@@ -29,6 +29,7 @@ form {
     position: fixed;
     bottom: 0;
     width: 100%;
+    background: white;
 }
 
 form input {
@@ -63,5 +64,21 @@ form button:active{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/* Mobile */
+
+@media only screen and (max-width: 600px) {
+
+    form input {
+        width: 79%;
+    }
+    
+    form button {
+        width: 19%;
+        margin-right: .5%;
+        margin-left: .5%;
+    }
+
 }
 
