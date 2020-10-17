@@ -29,7 +29,7 @@ app.get('/:id', function(req, res){
 
 io.on('connection', function(socket){
   socket.on('chat message', function(username, location, msg){
-    io.emit('chat message', username, msg);
+    io.emit('chat message', username, location, msg);
   });
 });
 

@@ -16,7 +16,7 @@
 }
 
 #messages{
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 }
 
 /* Classes */
@@ -24,15 +24,15 @@
 /* Tags */
 
 form {
-    background: #000;
-    padding: 3px;
+    border-top: 1px solid lightslategrey;
+    padding: 7.5px;
     position: fixed;
     bottom: 0;
     width: 100%;
 }
 
 form input {
-    border: 0;
+    border: 1px solid lightslategrey;
     padding: 10px;
     width: 90%;
     margin-right: .5%;
@@ -40,9 +40,21 @@ form input {
 
 form button {
     width: 9%;
-    background: rgb(130, 224, 255);
+    background: #2a7fff;
+    color: white;
+    border: 1px solid lightslategrey;
     border: none;
     padding: 10px;
+    cursor: pointer;
+    transition: 0.5s opacity;
+}
+
+form button:hover{
+    opacity: 0.8;
+}
+
+form button:active{
+    opacity: 0.6;
 }
 
 /* Other */
