@@ -1,4 +1,4 @@
 $(function () {
-    $('.root-url').text(window.location.host+'/');
+    $('.root-url').text(`${window.location.host}/`);
 });
 
