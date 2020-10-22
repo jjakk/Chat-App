@@ -47,6 +47,11 @@
     display: inline;
 }
 
+.github-link{
+    display: block;
+    margin: auto;
+}
+
 /* Tags */
 
 body{
