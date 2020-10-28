@@ -5,6 +5,8 @@ var io = require('socket.io')(http);
 let bodyParser = require('body-parser');
 var port = process.env.PORT || 8000;
 
+// App Settings & Middleware
+
 app.set('views', './views');
 app.set('view engine', 'pug');
 
