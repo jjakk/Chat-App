@@ -5,10 +5,12 @@ var io = require('socket.io')(http);
 let bodyParser = require('body-parser');
 var port = process.env.PORT || 8000;
 
-// App Settings & Middleware
+// App Settings
 
 app.set('views', './views');
 app.set('view engine', 'pug');
+
+// Middleware
 
 app.use(express.static('public'));
 app.use(bodyParser.urlencoded({extended: true}));
