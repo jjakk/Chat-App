@@ -1,1 +1,1 @@
-![Cash App](./public/img/banner.png)
+![Cash App](./public/img/banner.png)(http://chat.jak.bz)
