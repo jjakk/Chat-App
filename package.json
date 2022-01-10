@@ -12,5 +12,17 @@
   },
   "scripts": {
     "start": "node index.js"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jjakk/Chat-App.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jjakk/Chat-App/issues"
+  },
+  "homepage": "https://github.com/jjakk/Chat-App#readme"
 }
