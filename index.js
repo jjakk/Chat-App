@@ -2,6 +2,7 @@ const express = require('express');
 var app = express();
 var http = require('http').Server(app);
 //var io = require('socket.io')(http);
+var pug = require('pug');
 let bodyParser = require('body-parser');
 var port = process.env.PORT || 8000;
 
