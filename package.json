@@ -14,10 +14,6 @@
   "scripts": {
     "start": "node index.js"
   },
-  "engines": {
-    "npm": ">=8.3.0",
-    "node": ">=17.3.0"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jjakk/Chat-App.git"
