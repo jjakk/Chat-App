@@ -1,7 +1,7 @@
 const express = require('express');
 var app = express();
 var http = require('http').Server(app);
-var io = require('socket.io')(http);
+//var io = require('socket.io')(http);
 let bodyParser = require('body-parser');
 var port = process.env.PORT || 8000;
 
@@ -30,12 +30,13 @@ app.get('/:id', function(req, res){
 });
 
 // Messaging Sockets
-
+/*
 io.on('connection', function(socket){
   socket.on('chat message', function(username, location, msg){
     io.emit('chat message', username, location, msg);
   });
 });
+*/
 
 // Port listen
 
